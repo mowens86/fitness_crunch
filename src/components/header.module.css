@@ -1,0 +1,20 @@
+.smallLink {
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: .65rem;
+    padding: .5rem;
+}
+
+.bigLink {
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.smallLink:hover,
+.bigLink:hover {
+    color: #ABC502;
+}
