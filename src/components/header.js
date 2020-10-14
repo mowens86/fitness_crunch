@@ -1,19 +1,18 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import headerStyle from "./header.module.css"
+import headerStyle from "./styles/header.module.css"
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `black`,
-      marginBottom: `1.5rem`,
+      background: `black`
     }}
   >
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960,
+        maxWidth: `1080px`,
         padding: `1.45rem 1.0875rem`,
         display: 'flex',
         justifyContent: 'space-between',

@@ -4,17 +4,17 @@
     text-transform: uppercase;
     font-weight: 900;
     font-size: .65rem;
-    padding: .5rem;
+    padding: 1.5rem .5rem;
 }
 
 .bigLink {
     text-decoration: none;
-    color:#fff;
+    color:#ABC502;
     text-transform: uppercase;
     font-weight: bold;
+    font-style: italic;
 }
 
-.smallLink:hover,
-.bigLink:hover {
+.smallLink:hover{
     color: #ABC502;
 }

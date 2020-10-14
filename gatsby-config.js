@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Find Your Next Best Friend 🐾`,
-    description: `Find a new furry pet friend to adopt that is in need of good home.`,
+    title: `Dream Big, Lift Big, Stay Fit`,
+    description: `Stay in shape with an onsite gym, full of classes, and machine equipment`,
     author: `@gatsbyjs`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-styled-components',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
