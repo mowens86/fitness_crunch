@@ -4,7 +4,8 @@
     padding: 3rem 1.0875rem;
 }
 
-.whyH1 {
+.whyH1,
+.whyH3 {
     font-style: italic;
 }
 
@@ -22,3 +23,47 @@
 .whyP {
     text-align: center;
 }
+
+.whyH3 {
+    margin-bottom: .75rem;
+}
+
+.whyFlex {
+    display: flex;
+    flex: row wrap;
+}
+
+.whyBox {
+    width: 25%;
+    text-align: center;
+    padding: .5rem;
+}
+
+.whyIcon {
+    color: #ABC502;
+    display: inline-block;
+    font-size: 42px;
+    line-height: 1.8;
+    width: 80px;
+    height: 80px;
+    border: 2px solid rgba(153, 153, 153, 0.2);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 750px) {
+    
+    .whyFlex {
+        flex-direction: column;
+    }
+    
+    .whyBox {
+        width: 100%;
+        text-align: center;
+        padding: .5rem;
+    }
+    
+}    

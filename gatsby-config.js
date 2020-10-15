@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Dream Big, Lift Big, Stay Fit`,
+    title: `Dream Big, Lift Smart, Stay Fit`,
     description: `Stay in shape with an onsite gym, full of classes, and machine equipment`,
     author: `@gatsbyjs`,
   },
