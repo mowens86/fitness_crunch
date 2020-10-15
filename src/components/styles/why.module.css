@@ -1,0 +1,24 @@
+.whyWrapper {
+    margin: 0 auto;
+    max-width: 1080px;
+    padding: 3rem 1.0875rem;
+}
+
+.whyH1 {
+    font-style: italic;
+}
+
+.whyH1::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #ABC502;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.whyH1,
+.whyP {
+    text-align: center;
+}

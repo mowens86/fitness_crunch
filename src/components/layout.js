@@ -24,13 +24,13 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={ `Fit Crunch` || data.site.siteMetadata.title } />
+      <Header siteTitle={ `FitZ` || data.site.siteMetadata.title } />
       <div>
         <main>{children}</main>
         <footer style={{
           marginTop: `2rem`
         }}>
-          © {new Date().getFullYear()}, Fit Crunch was built with
+          © {new Date().getFullYear()}, FitZ was built with
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a>
         </footer>

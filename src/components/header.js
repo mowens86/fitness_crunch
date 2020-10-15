@@ -24,6 +24,7 @@ const Header = ({ siteTitle }) => (
         }}>
         <Link to="/" className={headerStyle.bigLink}>
         {siteTitle}</Link>
+        
       </h1>
       <ul style={{
         listStyle: 'none',
