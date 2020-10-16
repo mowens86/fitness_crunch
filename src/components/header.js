@@ -30,7 +30,7 @@ const Header = ({ siteTitle }) => (
     </div>
 
     <div id="hamBar" className={headerStyle.mobileHamburger}>
-      <a href="" class="icon" onClick={}>
+      <a href="" className={headerStyle.mobileHamLink}>
         <FontAwesomeIcon icon={faBars} />
       </a>
     </div>
