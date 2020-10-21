@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faThumbsUp } from "@fortawesome/free-regular-svg-icons"
 import { faStar } from "@fortawesome/free-regular-svg-icons"

@@ -1,0 +1,22 @@
+.fixedHeader {
+  overflow: hidden;
+  background-color: #000;
+  position: fixed;
+  top: 0; 
+  width: 100%;
+  z-index: 20;
+}
+
+.headerMaxWidth {
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+.bigLink {
+    text-decoration: none;
+    color:#ABC502;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 3rem;
+}
