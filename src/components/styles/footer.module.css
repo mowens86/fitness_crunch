@@ -1,0 +1,15 @@
+.footerWrapper {
+    background-color: #000;
+}
+
+.footerContentWrapper {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 1.45rem 1.0875rem;
+  text-align: center;
+  color: #fff;
+}
+
+.footerContentWrapper > a {
+  color: #ABC502;
+}
