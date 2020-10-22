@@ -9,7 +9,7 @@ const Footer = () => {
         <div className={footerStyle.footerContentWrapper}>
         © {new Date().getFullYear()}, FitZ was built with
         {` `}
-        <a href="https://www.gatsbyjs.com" target="_blank">Gatsby</a> by Michael Owens
+        <a href="https://www.gatsbyjs.com" target="_blank" rel="noreferrer">Gatsby</a> by Michael Owens
         </div>
     </footer>
   )
