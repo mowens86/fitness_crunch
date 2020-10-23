@@ -15,8 +15,15 @@
     display: block;
     background-color: #fff;
     width: 33%;
-    padding: 1.5rem;
     margin: .5rem;
+}
+
+.packageBoxPadding {
+    padding: 1.5rem;
+}
+
+.packageBoxImg {
+    margin-bottom: 0;
 }
 
 .packageH1 {
@@ -62,7 +69,7 @@
     font-weight: 800;
     font-size: .75rem;
     text-decoration: none;
-    padding: .5rem 1.5rem;
+    padding: .5rem 1rem;
     transition: .2s all ease-in-out;
 }
 
@@ -72,7 +79,7 @@
     color: #ABC502;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
     
     .packageContentWrapper {
         flex-direction: column;

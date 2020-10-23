@@ -4,6 +4,7 @@ import SEO from "../components/seo"
 import BackgroundSection from "../components/index/herobg"
 import Why from "../components/index/why"
 import PackageSection from "../components/index/packagesbg"
+import Contact from "../components/index/contact"
 
 const IndexPage = () => (
   <Layout>
@@ -11,6 +12,7 @@ const IndexPage = () => (
       <BackgroundSection />
       <Why />
       <PackageSection />
+      <Contact />
   </Layout>
 )
 

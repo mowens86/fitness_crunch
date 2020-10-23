@@ -3,6 +3,9 @@ import { graphql, StaticQuery } from 'gatsby'
 import styled from 'styled-components'
 import packageStyle from "../styles/packagesbg.module.css"
 import BackgroundImage from 'gatsby-background-image'
+import StarterImg from '../../images/starter.jpg'
+import RegularImg from '../../images/regular.jpg'
+import AdvancedImg from '../../images/advanced.jpg'
 
 const PackageSection = ({ className }) => (
   <StaticQuery
@@ -32,40 +35,49 @@ const PackageSection = ({ className }) => (
 
             <div className={packageStyle.packageContentWrapper}>
               
-              <div className={packageStyle.packageBox}>
-                <h2 className={packageStyle.packageH2}>Starter <span className={packageStyle.packageSpan}>$10/month</span></h2>
-                <ul className={packageStyle.packageList}>
-                  <li>2 Day a Week</li>
-                  <li>GYM Access & Equipment</li>
-                  <li>Get Suplement</li>
-                  <li>Personal Trainers</li>
-                  <li>Diet Guides</li>
-                </ul>
-                <a href="/" className={packageStyle.packageButton}>Join Starter</a>
+            <div className={packageStyle.packageBox}>
+                <img className={packageStyle.packageBoxImg} src={StarterImg} alt="Starter Plan" title="Starter Plan"/>
+                <div className={packageStyle.packageBoxPadding}>
+                  <h2 className={packageStyle.packageH2}>Starter <span className={packageStyle.packageSpan}>$10/month</span></h2>
+                  <ul className={packageStyle.packageList}>
+                    <li>2 Day a Week</li>
+                    <li>GYM Access & Equipment</li>
+                    <li>Get Suplement</li>
+                    <li>Personal Trainers</li>
+                    <li>Diet Guides</li>
+                  </ul>
+                  <a href="/" className={packageStyle.packageButton}>Join Starter</a>
+                </div>
               </div>
 
               <div className={packageStyle.packageBox}>
-                <h2 className={packageStyle.packageH2}>Regular <span className={packageStyle.packageSpan}>$20/month</span></h2>
-                <ul className={packageStyle.packageList}>
-                  <li>2 Day a Week</li>
-                  <li>GYM Access & Equipment</li>
-                  <li>Get Suplement</li>
-                  <li>Personal Trainers</li>
-                  <li>Diet Guides</li>
-                </ul>
-                <a href="/" className={packageStyle.packageButton}>Join Regular</a>
+                <img className={packageStyle.packageBoxImg} src={RegularImg} alt="Regular Plan" title="Regular Plan"/>
+                <div className={packageStyle.packageBoxPadding}>
+                  <h2 className={packageStyle.packageH2}>Regular <span className={packageStyle.packageSpan}>$20/month</span></h2>
+                  <ul className={packageStyle.packageList}>
+                    <li>2 Day a Week</li>
+                    <li>GYM Access & Equipment</li>
+                    <li>Get Suplement</li>
+                    <li>Personal Trainers</li>
+                    <li>Diet Guides</li>
+                  </ul>
+                  <a href="/" className={packageStyle.packageButton}>Join Regular</a>
+                </div>
               </div>
 
               <div className={packageStyle.packageBox}>
-                <h2 className={packageStyle.packageH2}>Advanced <span className={packageStyle.packageSpan}>$30/month</span></h2>
-                <ul className={packageStyle.packageList}>
-                  <li>2 Day a Week</li>
-                  <li>GYM Access & Equipment</li>
-                  <li>Get Suplement</li>
-                  <li>Personal Trainers</li>
-                  <li>Diet Guides</li>
-                </ul>
-                <a href="/" className={packageStyle.packageButton}>Join Advanced</a>
+                <img className={packageStyle.packageBoxImg} src={AdvancedImg} alt="Advanced Plan" title="Advanced Plan"/>
+                <div className={packageStyle.packageBoxPadding}>
+                  <h2 className={packageStyle.packageH2}>Advanced <span className={packageStyle.packageSpan}>$30/month</span></h2>
+                  <ul className={packageStyle.packageList}>
+                    <li>2 Day a Week</li>
+                    <li>GYM Access & Equipment</li>
+                    <li>Get Suplement</li>
+                    <li>Personal Trainers</li>
+                    <li>Diet Guides</li>
+                  </ul>
+                  <a href="/" className={packageStyle.packageButton}>Join Advanced</a>
+                </div>
               </div>
             
             </div>
