@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql, StaticQuery } from 'gatsby'
 import styled from 'styled-components'
-import heroStyle from "../styles/herobg.module.css"
+import heroStyle from "./herobg.module.css"
 import BackgroundImage from 'gatsby-background-image'
 
 const BackgroundSection = ({ className }) => (

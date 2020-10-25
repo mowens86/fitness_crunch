@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import styled from "styled-components"
 import NavbarLinks from "./NavbarLinks"
-import navbarStyle from "../styles/navbar.module.css"
+import navbarStyle from "./navbar.module.css"
 import Logo from "./logo"
 
 const Navigation = styled.nav`

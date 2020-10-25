@@ -1,6 +1,6 @@
 import PropTypes from "prop-types"
 import React from "react"
-import navbarStyle from "./styles/navbar.module.css"
+import navbarStyle from "./navbar/navbar.module.css"
 import Navbar from "./navbar/navbar"
 
 const Header = () => {

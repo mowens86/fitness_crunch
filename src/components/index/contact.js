@@ -1,5 +1,5 @@
 import React from 'react'
-import contactStyle from "../styles/contact.module.css"
+import contactStyle from "./contact.module.css"
 
 
 const Contact = () => {
@@ -45,7 +45,7 @@ return (
         </div>
       </form>
 
-
+      
     </div>
   </div>
 

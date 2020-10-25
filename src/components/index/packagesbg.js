@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql, StaticQuery } from 'gatsby'
 import styled from 'styled-components'
-import packageStyle from "../styles/packagesbg.module.css"
+import packageStyle from "./packagesbg.module.css"
 import BackgroundImage from 'gatsby-background-image'
 import StarterImg from '../../images/starter.jpg'
 import RegularImg from '../../images/regular.jpg'

@@ -2,7 +2,7 @@
 
 import React from "react"
 import { Link } from "gatsby"
-import navbarStyle from "../styles/navbar.module.css"
+import navbarStyle from "./navbar.module.css"
 
 
 const Logo = () => {

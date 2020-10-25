@@ -4,7 +4,7 @@ import { faThumbsUp } from "@fortawesome/free-regular-svg-icons"
 import { faStar } from "@fortawesome/free-regular-svg-icons"
 import { faClock } from "@fortawesome/free-regular-svg-icons"
 import { faArrowAltCircleRight } from "@fortawesome/free-regular-svg-icons"
-import whyStyle from "../styles/why.module.css"
+import whyStyle from "./why.module.css"
 
 const Why = () => (
       <div className={whyStyle.whyWrapper}>

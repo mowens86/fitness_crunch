@@ -1,0 +1,98 @@
+.galleryBG {
+    background-color: #222222;
+    padding-top: 10rem;
+}
+
+.galleryMaxWidth {
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+.galleryH1 {
+    color: #ABC502;
+}
+
+.galleryH1 {
+    font-style: italic;
+}
+
+.galleryH1::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #ABC502;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.galleryH1 {
+    text-align: center;
+}
+
+.galleryGrid {
+    display: grid;
+    padding: 1rem 1rem 5rem 1rem;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+    grid-template-areas:
+    "one one two two"
+    "one one three three"
+    "five five four four"
+    "six six four four";
+}
+
+.galleryGrid > figure {
+    margin: 0;
+}
+
+.galleryGridOne {
+    grid-area: one;
+}
+
+.galleryGridTwo {
+    grid-area: two;
+}
+
+.galleryGridThree {
+    grid-area: three;
+}
+
+.galleryGridFour {
+    grid-area: four;
+}
+
+.galleryGridFive {
+    grid-area: five;
+}
+
+.galleryGridSix {
+    grid-area: six;
+}
+
+.galleryImg {
+    max-width: 100%;
+    transition: all .25s ease-in-out;
+    margin: 0;
+}
+
+.galleryImg:hover {
+    transform: scale(1.05);
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .galleryGrid {
+        margin: 0 auto;
+        justify-content: center;
+        grid-template-areas:
+        "one one one one"
+        "two two two two"
+        "three three three three"
+        "four four four four"
+        "five five five five"
+        "six six six six";
+    }
+    
+}   
