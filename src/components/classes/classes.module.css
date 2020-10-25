@@ -8,11 +8,10 @@
     max-width: 1080px;
 }
 
-.classH1 {
+.classH1,
+.classH3,
+.classH4 {
     color: #ABC502;
-}
-
-.classH1 {
     font-style: italic;
 }
 
@@ -36,25 +35,46 @@
 }
 
 .classContentWrapper {
-    padding: 1rem; 
+    padding: 1.5rem; 
 }
-
-.classH3,
-.classH4,
-.classP {
-    color: #fff;
-    font-style: italic;
+.classImg {
+    width: 100%;
 }
 
 .classImg,
 .classH3,
 .classH4,
-.classP {
+.classP,
+.classP2 {
     margin: 0;
 }
 
-.classWhite {
+.classP2 {
+    padding-bottom: 1rem;
+}
+
+.classWhite,
+.classP,
+.classP2 {
     color: #fff;
+}
+
+.classButton {
+    border: 1px solid #ABC502;
+    background-color: #ABC502;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: .75rem;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    transition: .2s all ease-in-out;
+}
+
+.classButton:hover {
+    border: 1px solid #ABC502;
+    background-color: #222222;
+    color: #ABC502;
 }
 
 .classGrid {
@@ -63,38 +83,14 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 1rem;
-    grid-template-areas:
-    "";
 }
 
 .classGrid > figure {
     margin: 0;
 }
 
-.classGridOne {
-    grid-area: one;
-}
-
-.classGridTwo {
-    grid-area: two;
-}
-
-.classGridThree {
-    grid-area: three;
-}
-
-.classGridFour {
-    grid-area: four;
-}
-
-.classGridFive {
-    grid-area: five;
-}
-
-.classGridSix {
-    grid-area: six;
-}
-
 @media only screen and (max-width: 768px) {
-
+    .classGrid {
+        grid-template-columns: auto;
+    }
 }

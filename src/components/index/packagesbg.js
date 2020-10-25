@@ -46,7 +46,7 @@ const PackageSection = ({ className }) => (
                     <li>Personal Trainers</li>
                     <li>Diet Guides</li>
                   </ul>
-                  <a href="/" className={packageStyle.packageButton}>Join Starter</a>
+                  <a href="/#contact" className={packageStyle.packageButton}>Join Starter</a>
                 </div>
               </div>
 
@@ -61,7 +61,7 @@ const PackageSection = ({ className }) => (
                     <li>Personal Trainers</li>
                     <li>Diet Guides</li>
                   </ul>
-                  <a href="/" className={packageStyle.packageButton}>Join Regular</a>
+                  <a href="/#contact" className={packageStyle.packageButton}>Join Regular</a>
                 </div>
               </div>
 
@@ -76,7 +76,7 @@ const PackageSection = ({ className }) => (
                     <li>Personal Trainers</li>
                     <li>Diet Guides</li>
                   </ul>
-                  <a href="/" className={packageStyle.packageButton}>Join Advanced</a>
+                  <a href="/#contact" className={packageStyle.packageButton}>Join Advanced</a>
                 </div>
               </div>
             
