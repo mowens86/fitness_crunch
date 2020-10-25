@@ -1,0 +1,100 @@
+.classBG {
+    background-color: #222222;
+    padding-top: 10rem;
+}
+
+.classMaxWidth {
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+.classH1 {
+    color: #ABC502;
+}
+
+.classH1 {
+    font-style: italic;
+}
+
+.classH1::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #ABC502;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.classH1 {
+    text-align: center;
+}
+
+.classFigure {
+    border: 2px solid #ABC502;
+    background-color: #000;
+}
+
+.classContentWrapper {
+    padding: 1rem; 
+}
+
+.classH3,
+.classH4,
+.classP {
+    color: #fff;
+    font-style: italic;
+}
+
+.classImg,
+.classH3,
+.classH4,
+.classP {
+    margin: 0;
+}
+
+.classWhite {
+    color: #fff;
+}
+
+.classGrid {
+    display: grid;
+    padding: 1rem 1rem 5rem 1rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+    grid-template-areas:
+    "";
+}
+
+.classGrid > figure {
+    margin: 0;
+}
+
+.classGridOne {
+    grid-area: one;
+}
+
+.classGridTwo {
+    grid-area: two;
+}
+
+.classGridThree {
+    grid-area: three;
+}
+
+.classGridFour {
+    grid-area: four;
+}
+
+.classGridFive {
+    grid-area: five;
+}
+
+.classGridSix {
+    grid-area: six;
+}
+
+@media only screen and (max-width: 768px) {
+
+}

@@ -6,6 +6,9 @@ import galleryThree from '../../images/gallerythree.jpg'
 import galleryFour from '../../images/galleryfour.jpg'
 import galleryFive from '../../images/galleryfive.jpg'
 import gallerySix from '../../images/gallerysix.jpg'
+import gallerySeven from '../../images/galleryseven.jpg'
+import galleryEight from '../../images/galleryeight.jpg'
+import galleryNine from '../../images/gallerynine.jpg'
 
 const Gallery = () => {
   
@@ -32,19 +35,28 @@ const Gallery = () => {
                     </figure>
 
                     <figure className={galleryStyle.galleryGridFour}>
-                        <img className={galleryStyle.galleryImg} src={galleryFour} alt="Pool"/>
+                        <img className={galleryStyle.galleryImg} src={galleryFour} alt="Tanning"/>
                     </figure>
 
                     <figure className={galleryStyle.galleryGridFive}>
-                        <img className={galleryStyle.galleryImg} src={galleryFive} alt="Pool"/>
+                        <img className={galleryStyle.galleryImg} src={galleryFive} alt="Aerobics"/>
                     </figure>
 
                     <figure className={galleryStyle.galleryGridSix}>
-                        <img className={galleryStyle.galleryImg} src={gallerySix} alt="Pool"/>
+                        <img className={galleryStyle.galleryImg} src={gallerySix} alt="Basketball"/>
                     </figure>
 
+                    <figure className={galleryStyle.galleryGridSeven}>
+                        <img className={galleryStyle.galleryImg} src={gallerySeven} alt="Rock Climbing"/>
+                    </figure>
 
+                    <figure className={galleryStyle.galleryGridEight}>
+                        <img className={galleryStyle.galleryImg} src={galleryEight} alt="Bench Press"/>
+                    </figure>
 
+                    <figure className={galleryStyle.galleryGridNine}>
+                        <img className={galleryStyle.galleryImg} src={galleryNine} alt="Protein Shakes"/>
+                    </figure>
 
                 </div>
 
