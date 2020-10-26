@@ -1,5 +1,5 @@
 {
-  "name": "fitness-crunch",
+  "name": "fitz",
   "private": true,
   "description": "A simple fitness website",
   "version": "0.1.0",
@@ -23,6 +23,7 @@
     "gatsby-plugin-sharp": "^2.6.38",
     "gatsby-plugin-styled-components": "^3.3.14",
     "gatsby-source-filesystem": "^2.3.32",
+    "gatsby-transformer-remark": "^2.8.46",
     "gatsby-transformer-sharp": "^2.5.16",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
@@ -31,6 +32,7 @@
     "styled-components": "^5.2.0"
   },
   "devDependencies": {
+    "env-cmd": "^10.1.0",
     "prettier": "2.1.2"
   },
   "keywords": [
@@ -39,7 +41,7 @@
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "env-cmd -f .env.development gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",

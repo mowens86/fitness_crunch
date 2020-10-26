@@ -22,8 +22,9 @@ const Gallery = () => {
                 <div className={galleryStyle.galleryGrid}>
 
                     <figure className={galleryStyle.galleryGridOne}>
-                        <img className={galleryStyle.galleryImg} src={galleryOne} alt="Treadmills"/>
-                        <div className={galleryStyle.galleryImgOverlay}></div>
+                        <div className={galleryStyle.galleryImgWrapper}>
+                            <img className={galleryStyle.galleryImg} src={galleryOne} alt="Treadmills"/>
+                        </div>
                     </figure>
 
                     <figure className={galleryStyle.galleryGridTwo}>

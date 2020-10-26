@@ -10,8 +10,6 @@ import classLydia from '../../images/classlydia.jpg'
 
 const Class = () => {
 
-
-  
 return (
     <section className={classStyle.classBG}>
 <div className={classStyle.classMaxWidth}>

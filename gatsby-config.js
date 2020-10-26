@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Dream Big, Lift Smart, Stay Fit`,
     description: `Stay in shape with an onsite gym, full of classes, and machine equipment`,
-    author: `@gatsbyjs`,
+    author: `Mike Owens`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -14,7 +14,15 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: 'src',
+        path: `${__dirname}/src/`
+      },
+    },
     `gatsby-transformer-sharp`,
+    `gatsby-transformer-remark`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
