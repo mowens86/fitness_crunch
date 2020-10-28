@@ -1,6 +1,7 @@
 .blogBG {
     background-color: #fff;
     padding-top: 10rem;
+    padding-bottom: 5rem;
 }
 
 .blogMaxWidth {
@@ -19,7 +20,8 @@
 .blogH2,
 .blogH3,
 .blogH4,
-.blogP {
+.blogP,
+.blogDate {
     margin: 0;
 }
 
@@ -34,5 +36,10 @@
 }
 
 .blogH1 {
+    text-align: center;
+}
+
+.blogDate {
+    padding: 1rem 0;
     text-align: center;
 }

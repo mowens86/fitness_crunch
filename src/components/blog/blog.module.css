@@ -37,6 +37,30 @@
     text-align: center;
 }
 
+.blogPosts {
+    list-style-type: none;
+    margin: 0; 
+}
+
+.blogPost {
+    margin: 1.5rem 0;
+}
+
+.blogPost > a {
+    background: #f4f4f4;
+    color: #000;
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+}
+
+.blogPost > a:hover {
+    background: #e4e4e4;
+    transform: scale(1.02);
+    box-shadow: 5px 10px 18px #888888;
+}
+
 .blogGrid {
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
