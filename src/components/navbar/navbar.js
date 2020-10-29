@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import styled from "styled-components"
-import NavbarLinks from "./NavbarLinks"
+import NavbarLinks from "./navbarlinks"
 import navbarStyle from "./navbar.module.css"
 import Logo from "./logo"
 
