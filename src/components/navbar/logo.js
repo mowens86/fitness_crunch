@@ -1,5 +1,4 @@
 // Logo.js
-
 import React from "react"
 import { Link } from "gatsby"
 import navbarStyle from "./navbar.module.css"

@@ -1,40 +1,26 @@
 # 🏋️ FitZ
 
-A simple fitness website that is being used as a learning project to use Gatsby js to learn the JAMstack. Use this as a layout for your website if it helps you.
+A simple fitness website that is being used as a learning project to use Gatsby js to learn the JAMstack. This website template includes mobile responsiveness and CMS for the blogs using Contentful. Use this as a layout for your website if it helps you.
 
-### File structure
+## File structure
+
     .
     ├── node_modules
     ├── src
     |   ├──components
-    |   |   ├──about
+    |   |   ├──404
     |   |   ├──blog
-    |   |   |   ├──blog.js
-    |   |   |   └──blog.module.css
-    |   |   ├──classes
-    |   |   |   ├──classes.js
-    |   |   |   └──classes.module.css    
+    |   |   ├──classes 
     |   |   ├──gallery
-    |   |   |   ├──herogallery.js
-    |   |   |   └──herogallery.module.css  
-    |   |   ├──index
-    |   |   |   ├──contact.js
-    |   |   |   ├──contact.module.css
-    |   |   |   ├──herobg.js
-    |   |   |   ├──herobg.module.css  
-    |   |   |   ├──packagebg.js
-    |   |   |   ├──packagesbg.module.css  
-    |   |   |   ├──why.js
-    |   |   |   └──why.module.css  
+    |   |   ├──index 
     |   |   ├──navbar
-    |   |   |   ├──logo.js
-    |   |   |   ├──navbar.js
-    |   |   |   ├──navbar.module.css
-    |   |   |   └──navbarlinks.js
     |   |   └──styles
-    |   ├──components
-    |   ├──components
+    |   ├──images
+    |   ├──pages
+    |   └──templates
+    ├── .env.yours
     ├── .gitignore
+    ├── .jshintrc
     ├── .prettierrc
     ├── gatsby-browser.js
     ├── gatsby-config.js
@@ -44,5 +30,11 @@ A simple fitness website that is being used as a learning project to use Gatsby 
     ├── package-lock.json
     ├── package.json
     └── README.md
+    .
+
+## Improvements
+
+- Clean up css in the component areas, create a common css layout for re-used classes ie. maxwidth, colors, headers
+- Adjust css modules to scss modules for variable usage and easy theme adjustment
 
     
