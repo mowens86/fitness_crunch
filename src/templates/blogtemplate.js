@@ -8,13 +8,17 @@ export const query = graphql`
     query($slug: String!) {
         contentfulBlogPost (slug: {eq: $slug}) {
             title
-            publishedDate(formatString: "MMMM do, YYYY")
+            publishedDate(formatString: "MMMM Do, YYYY")
             body {
                 json
             }
+            image {
+                file {
+                    url
+                }
+            }
         }
     }
-
 `;
 
 const Blog = (props) => {
@@ -27,6 +31,7 @@ const Blog = (props) => {
                     <div className={blogStyle.blogsWrapper}>
                         <h1 className={blogStyle.blogH1}>{props.data.contentfulBlogPost.title}</h1>
                         <p className={blogStyle.blogDate}>Posted: {props.data.contentfulBlogPost.publishedDate}</p>
+                        <img src={props.data.contentfulBlogPost.image.file.url} alt={props.data.contentfulBlogPost.title}/>
                         <div>{documentToReactComponents(props.data.contentfulBlogPost.body.json)}</div>
                     </div>
       

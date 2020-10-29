@@ -13,7 +13,7 @@ const Blog = () => {
             publishedDate(formatString:"MMMM Do, YYYY")
           }
         }
-      }
+      },
     }
   `);
 
@@ -26,6 +26,7 @@ const Blog = () => {
           
             <div className={blogStyle.blogGrid}>
               <ol className={blogStyle.blogPosts}>
+                
                 {data.allContentfulBlogPost.edges.map((edge) => {
                   return (
                     <li className={blogStyle.blogPost}>
@@ -36,6 +37,7 @@ const Blog = () => {
                     </li>
                   )
                 })}
+
               </ol>
             </div>
       
@@ -46,4 +48,4 @@ const Blog = () => {
       )
     }
     
-      export default Blog
+    export default Blog

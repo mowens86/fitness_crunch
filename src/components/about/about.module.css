@@ -1,0 +1,30 @@
+.aboutBG {
+    background-color: #fff;
+    padding-top: 10rem;
+}
+
+.aboutMaxWidth {
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+.aboutH1,
+.aboutH3,
+.aboutH4 {
+    color: #ABC502;
+    font-style: italic;
+}
+
+.aboutH1::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #ABC502;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.aboutH1 {
+    text-align: center;
+}
