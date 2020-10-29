@@ -21,7 +21,7 @@ const Blog = () => {
     <section className={blogStyle.blogBG}>
       <div className={blogStyle.blogMaxWidth}>
       
-          <div className={blogStyle.blogsWrapper}>
+          <div className={blogStyle.blogWrapper}>
           <h1 className={blogStyle.blogH1}>Blog</h1>
           
             <div className={blogStyle.blogGrid}>

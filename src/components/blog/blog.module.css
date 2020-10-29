@@ -8,6 +8,10 @@
     max-width: 1080px;
 }
 
+.blogWrapper {
+    margin-bottom: 9rem;
+}
+
 .blogH1,
 .blogH2,
 .blogH3,

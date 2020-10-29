@@ -1,18 +1,20 @@
-.aboutBG {
+.BG {
     background-color: #fff;
     padding-top: 10rem;
 }
 
-.aboutMaxWidth {
+.MaxWidth {
     margin: 0 auto;
     max-width: 1080px;
 }
 
-.aboutH1 {
+.H1,
+.H3,
+.H4 {
     font-style: italic;
 }
 
-.aboutH1::after {
+.H1::after {
     content: '';
     display: block;
     width: 100px;
@@ -22,10 +24,7 @@
     margin-top: 20px;
 }
 
-.aboutH1 {
+.H1,
+.P {
     text-align: center;
-}
-
-.aboutP {
-    margin-bottom: 5rem;
 }
