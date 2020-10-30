@@ -14,8 +14,8 @@ return (
     <p className={contactStyle.contactP}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     <div >
 
-      <form id="contact" action="/" className={contactStyle.formStyle} method="post" name="contact" data-netlify="true" data-netlify-honeypot="bot-field">
-        <input type="hidden" name="form-name" value="contact">
+      <form id="contact" action="/" className={contactStyle.formStyle} method="POST" name="contact" data-netlify="true" data-netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact"></input>
         <div className={contactStyle.inputFlex}>
           <div className={contactStyle.inputDiv}>
             <input className={contactStyle.inputBox} type="text" name="name" placeholder="Name*" required></input>
@@ -43,6 +43,7 @@ return (
         <div className={contactStyle.formButtonStyle}>
           <button type="submit" className={contactStyle.formButton}>Send Message</button>
         </div>
+        
       </form>
 
       
