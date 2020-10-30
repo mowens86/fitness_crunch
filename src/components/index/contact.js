@@ -14,7 +14,7 @@ return (
     <p className={contactStyle.contactP}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     <div >
 
-      <form id="contact" className={contactStyle.formStyle} method="post" name="contact" data-netlify="true" data-netlify-honeypot="bot-field">
+      <form id="contact" action="/" className={contactStyle.formStyle} method="post" name="contact" data-netlify="true" data-netlify-honeypot="bot-field">
 
         <div className={contactStyle.inputFlex}>
           <div className={contactStyle.inputDiv}>
