@@ -6,8 +6,8 @@ import Gallery from "../components/gallery/herogallery"
 const GalleryPage = () => {
     return (
         <Layout>
-            <SEO title="FitZ" />
-            <Gallery />
+        <SEO title="FitZ" />
+        <Gallery />
         </Layout>
     )
 }

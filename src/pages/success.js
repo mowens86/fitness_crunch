@@ -5,7 +5,7 @@ import Success from "../components/success/success"
 
 const SuccessPage = () => (
   <Layout>
-    <SEO title="404: Not found" />
+    <SEO title="Message Success" />
     <Success/>
   </Layout>
 )

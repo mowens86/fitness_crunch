@@ -9,10 +9,10 @@ import Contact from "../components/index/contact"
 const IndexPage = () => (
   <Layout>
     <SEO title="FitZ" />
-      <BackgroundSection />
-      <Why />
-      <PackageSection />
-      <Contact />
+    <BackgroundSection />
+    <Why />
+    <PackageSection />
+    <Contact />
   </Layout>
 )
 

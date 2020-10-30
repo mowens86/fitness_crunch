@@ -7,8 +7,8 @@ import Class from "../components/classes/classes"
 const ClassPage = () => {
     return (
         <Layout>
-            <SEO title="FitZ" />
-            <Class />
+        <SEO title="FitZ" />
+        <Class />
         </Layout>
     )
 }

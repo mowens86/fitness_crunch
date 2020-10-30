@@ -6,8 +6,8 @@ import Blog from "../components/blog/blog"
 const AboutPage = () => {
     return (
         <Layout>
-            <SEO title="FitZ" />
-            <Blog/>
+        <SEO title="FitZ" />
+        <Blog/>
         </Layout>
     )
 }

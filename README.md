@@ -14,7 +14,8 @@ A simple fitness website that is being used as a learning project to use Gatsby 
     |   |   ├──gallery
     |   |   ├──index 
     |   |   ├──navbar
-    |   |   └──styles
+    |   |   ├──styles
+    |   |   └──success
     |   ├──images
     |   ├──pages
     |   └──templates
@@ -32,7 +33,7 @@ A simple fitness website that is being used as a learning project to use Gatsby 
     └── README.md
     .
 
-## Improvements
+## Potential Improvements
 
 - Clean up css in the component areas, create a common css layout for re-used classes ie. maxwidth, colors, headers
 - Adjust css modules to scss modules for variable usage and easy theme adjustment
