@@ -15,7 +15,7 @@ return (
     <div >
 
       <form id="contact" action="/" className={contactStyle.formStyle} method="post" name="contact" data-netlify="true" data-netlify-honeypot="bot-field">
-
+        <input type="hidden" name="form-name" value="contact">
         <div className={contactStyle.inputFlex}>
           <div className={contactStyle.inputDiv}>
             <input className={contactStyle.inputBox} type="text" name="name" placeholder="Name*" required></input>
