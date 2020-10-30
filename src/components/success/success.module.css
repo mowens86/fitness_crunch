@@ -1,0 +1,30 @@
+.BG {
+    background-color: #fff;
+    padding-top: 10rem;
+}
+
+.MaxWidth {
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+.H1,
+.H3,
+.H4 {
+    font-style: italic;
+}
+
+.H1::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #ABC502;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.H1,
+.P {
+    text-align: center;
+}
